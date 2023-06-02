@@ -23,17 +23,111 @@ header ul li {
 header ul li a{
     text-decoration: none;
 }
+header .logo {
+    height: 30px;
+    width: 50px;
+}
 main {
-    min-width: calc(100vh - 50px);
+    min-width: calc(150vh - 50px);
     padding: 20px;
 }
 main {
     display: flex;
     background-color:#E5F9DB;
     margin: 0 auto;
-    padding: 5px;
+     padding: 5px; 
 
 }
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+#FoodName{
+    margin-bottom: 10px;
+    color: #555e03;
+    font-size: medium;
+    align-items: center;
+}
+#Type{
+    margin-bottom: 10px;
+    color: #555e03;
+    border-radius: 5px;
+    border-color: #555e03;
+    font-size: medium;
+    align-items: center;
+    
+    
+}
+  #price{margin-bottom: 10px;
+    color: aqua;
+    font-size: medium;
+    align-items: center;
+}
+label{
+    background-color:#63e29c;
+    color:green;
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+    align-items: center;
+}
+input{
+    padding: 20px;
+     margin-bottom: 40px;
+    padding-bottom: 30px;
+
+}
+  
+section {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #393E46;
+  }
+            
+            
+
+table, th ,td {
+ border: 2px solid;
+ border-color: #260d4f;
+ height: 50px;
+ width: 200px;
+ border-collapse: collapse;
+ font-size: medium;
+ font-style:unset;
+ font-weight:bold;
+ margin-top: 100px; 
+ background-color: #1f95f0;
+ color: #360236;}
+                  
+
+select{
+    padding: 20px;
+   width: 20px;
+}
+#table{
+color:#7fbef1;
+font-style: normal;
+text-align: center;
+
+}
+
+  
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
 .footer{
     height: 2px;
     display: flex;
@@ -49,3 +143,4 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
